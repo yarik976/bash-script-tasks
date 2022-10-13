@@ -6,5 +6,5 @@ elif [ "$#"  == 2 ]; then
 elif [ "$#"  == 3 ]; then
 	echo -e "$1\n$2\n$3"
 else
-	echo "There no arguments or more than 3"
+	echo "Error! There no input arguments or more than 3"
 fi
